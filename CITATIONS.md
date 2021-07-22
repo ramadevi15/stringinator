@@ -11,5 +11,5 @@ For further reference, please consider the following sections:
 These additional references should also help you:
 
 * [StringUtils](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html)
-* [regex for punctuation-character] (https://newbedev.com/check-if-string-is-a-punctuation-character)
-* [Junit 5 - Assert an Exception] (https://stackoverflow.com/questions/40268446/junit-5-how-to-assert-an-exception-is-thrown)
+* [regex for punctuation-character](https://newbedev.com/check-if-string-is-a-punctuation-character)
+* [Junit 5 - Assert an Exception](https://stackoverflow.com/questions/40268446/junit-5-how-to-assert-an-exception-is-thrown)
