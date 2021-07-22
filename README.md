@@ -1,4 +1,4 @@
-# stringinator
+# Stringinator
 Find the most popular, longest string the server has been seen and frequent characters in the given input
 
 #To Build Spring Boot Application use command: gradlew clean build -x test
