@@ -63,13 +63,6 @@ public class StringinatorControllerTest extends BaseTest {
         Assertions.assertEquals(stringinatorResponse,response);
     }
 
-    @Test
-    public void test_stringinate_post_throws_if_empty_input(){
-        stringinatorRequest.setInput(null);
-        Exception applicationException = assertThrows(MethodArgumentNotValidException.class,() ->
-                stringinatorController.stringinate(stringinatorRequest));
-        assertTrue(applicationException.getMessage().equals("Bad Request"));
-    }
 
     @Test
     public void test_stringinate_get_success(){
@@ -78,13 +71,6 @@ public class StringinatorControllerTest extends BaseTest {
         Assertions.assertEquals(stringinatorResponse,response);
     }
 
-    @Test
-    public void test_stringinate_get_throws_if_empty_input(){
-        stringinatorRequest.setInput(null);
-        Exception applicationException = assertThrows(Exception.class,() ->
-                stringinatorController.stringinate(""));
-        assertTrue(applicationException.getMessage().equals("Bad Request"));
-    }
 
     @Test
     public void test_stats_success(){
